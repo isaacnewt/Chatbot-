@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Good day"],
+         "responses": ["Hello", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Till next time"],
+         "responses": ["Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you."],
+         "context": [""]
+        },
+        {"tag": "berlin",
+         "patterns": ["Can we consider Berlin?"],
+         "responses": ["Berlin will be bright with a moderate windspeed."],
+         "context": [""]
+        },
+        {"tag": "months",
+         "patterns": ["What are the summer months in Europe"],
+         "responses": ["Summer is the period between Spring and Autumn and comprises the months of June, July and Augut. It is usually the warmest season in the year."],
+         "context": [""]
+        },
+        {"tag": "average",
+         "patterns": ["The average temperature for Berlin in the month of August"],
+         "responses": ["Average temperature of Berlin is about 15.7oC."],
+         "context": [""]
+        },
+        {"tag": "Morning",
+         "patterns": ["Will morning condition be same as evening?"],
+         "responses": ["Morning and evening weather condition are similar but not same."],
+         "context": [""]
+        },
+        {"tag": "condition_answer",
+         "patterns": ["What is weather condition for tomorrow?"],
+         "responses": ["What cities are you interested in?"],
+         "context": [""]
+        },
+        {"tag": "weather_search_for_cities",
+         "patterns": ["I want to search weather condition for major cities" ],
+         "responses": ["Please provide city name or location."],
+         "context": ["search_cities_by_params"]
+        }
+   ]
+}
